@@ -1,5 +1,131 @@
+
 .App {
+  /* margin-top: 0; */
+  height: 100vh;
   text-align: center;
+  display: block;
+  /* justify-content: center;  */
+  border: 5px solid white;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #fce082;
+    border-radius: 10px;
+    
+}
+.add{
+  display: flex;
+height: 150px;
+width: 1000px;
+margin-left: 8rem;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #d8ff7d;
+  border-radius: 10px;
+}
+input{
+  height: 30px;
+  width: 300px;
+  margin-top: 10px;
+ color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+input:active{
+ 
+}
+.btn1{
+  display: inline-block;
+  height: 33px;
+  width: 150px;
+  margin-top: 10px; 
+  color: white;
+  background-color: rgb(4, 145, 192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ box-shadow: 0 9px #d8ff7d;
+}
+.btn1:hover{
+ 
+  font-size: medium;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.2s ease-in-out;
+}
+.btn1:active{
+  transform: translateY(4px);
+  box-shadow: 0 5px #b8f132;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.list{
+display: flex;
+margin-top: 50px;
+margin-left: 8rem;
+margin-right: 7rem;
+height: auto;
+
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ /* margin-top: 10px; */
+}
+.tasks{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  width: 1000px ;
+  justify-content: space-between;
+  border: 1px dotted blueviolet; 
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.tasks:hover{
+  background-color: rgb(142, 254, 254);
+  transition: all 1s ease;
+  
+
+ 
+}
+.btn2{
+  
+  
+  width: 55px;
+  height: 33px;
+  padding: 5px ;
+margin-right: 10px;
+  color: white;
+  background-color: rgb(4, 145, 192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn2:hover{
+  font-size: medium;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.2s ease-in-out;
+}
+.btn2:active{
+  transform: translateY(4px);
+  box-shadow: 0 5px ;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.UPDATE{
+  background-color:rgb(0, 144, 240);
+width:60px ;
+}
+.DELETE{
+  background-color: red;
+}
+.COMP{
+  background-color:rgb(5, 129, 96);
+  width:90px ;
+}
+h1{
+  margin-left: 10px;
 }
 
 .App-logo {
